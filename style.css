@@ -1,0 +1,49 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+* body {
+  font-family: sans-serif;
+  font-size: 35px;
+}
+
+.container {
+  height: 100vh;
+  display: -ms-grid;
+  display: grid;
+  place-content: center;
+}
+
+#cage {
+  position: absolute;
+  top: 55%;
+  left: 43%;
+}
+
+@media (min-width: 992px) {
+  .container {
+    background-color: #cdb4db;
+  }
+}
+
+@media (max-width: 992px) {
+  .container {
+    background-color: #fff1e6;
+  }
+}
+
+@media (max-width: 768px) {
+  .container {
+    background-color: #52b788;
+  }
+}
+
+@media (max-width: 576px) {
+  .container {
+    background-color: #bee1e6;
+  }
+}
+/*# sourceMappingURL=style.css.map */
